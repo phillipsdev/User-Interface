@@ -156,10 +156,12 @@ h5 {
 }
 
 /* header */
-
+header {
+  width: 100%;
+}
 header nav {
   display: inline-block;
-  width: 691px;
+  width: 75%;
   vertical-align: top;
   margin-top: 35px;
 }
@@ -197,7 +199,7 @@ header .logo {
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
-  padding: 0px 90px;
+  padding: 0px 75px;
 }
 
 .cta .cta-text button {
@@ -218,6 +220,8 @@ header .logo {
 .cta img {
   display: inline-block;
   margin-top: 69px;
+  position: absolute;
+  top: 10;
 }
 
 .main-content {
